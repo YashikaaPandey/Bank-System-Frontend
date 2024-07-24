@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Bank Account</title>
+    <link rel="stylesheet" href="new_account.css">
+</head>
+<body>
+	<h1>Create Bank Account</h1>
+	<form>
+		<label for="fname">User name:</label><br>
+		<input type="text" id="fname" name="fname"><br><br>
+        <label for="gender">Gender</label><br>
+		<input type="text" id="gender" name="gender"><br><br>
+		<label for="aadhar">Adhar no.:</label><br>
+		<input type="text" id="aadhar" name="aadhar"><br><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="mobile">Mobile:</label><br>
+		<input type="number" id="mobile" name="mobile"><br><br>
+		<label for="account-type">Account Type:</label><br>
+		<select id="account-type" name="account-type">
+			<option value="checking">Current</option>
+			<option value="savings">Savings</option>
+		</select><br><br>
+        <label for="balance">Submit Balance:</label><br>
+		<input type="number" id="balance" name="balance"><br><br>
+		<input type="submit" value="Create Account">
+	</form>
+</body>
+</html>
